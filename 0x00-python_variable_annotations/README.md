@@ -4,6 +4,8 @@
 
 - [Advanced Python](https://alx-intranet.hbtn.io/concepts/554)
 
+[![static vs dynamic typing](images/python.png)]()
+
 ## Resources
 **Read or watch:**
 

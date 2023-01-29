@@ -113,14 +113,14 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
         cls.get_patcher.stop()
 
     def test_public_repos(self) -> None:
-        """integration test for GithubOrgClient method public_repos without args"""
+        """integration test for GithubOrgClient.public_repos without args"""
         self.assertEqual(
             GithubOrgClient('google').public_repos(),
             self.expected_repos
         )
 
     def test_public_repos_with_license(self) -> None:
-        """integration test for GithubOrgClient method public_repos with args"""
+        """integration test for GithubOrgClient.public_repos with args"""
         self.assertEqual(
             GithubOrgClient('google').public_repos(license="apache-2.0"),
             self.apache2_repos
